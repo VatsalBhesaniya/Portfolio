@@ -1,5 +1,5 @@
 name: portfolio
-description: A portfolio project.
+description: A Flutter application showcasing my professional skills and experience.
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -44,18 +44,8 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^3.0.1
-  flutter_launcher_icons: ^0.13.1
   build_runner: ^2.4.7
   freezed: ^2.4.6
-
-flutter_icons:
-  android: "launcher_icon"
-  ios: true
-  image_path: "assets/images/portfolio_icon.png"
-  min_sdk_android: 21
-  web:
-    generate: true
-    image_path: "assets/images/portfolio_icon.png"
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
